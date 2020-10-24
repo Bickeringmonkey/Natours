@@ -15,6 +15,10 @@
         -ms-transition: transfrom .3;
         -o-transition: transfrom .3;
 
+        @include respond(tab-port) {
+            padding: 2rem;
+        }
+
         &__icon{
             font-size: 6rem;
             margin-bottom: .5rem;
